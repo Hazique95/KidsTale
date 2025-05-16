@@ -1,4 +1,3 @@
-
 # Compiled output
 /dist
 /tmp
@@ -39,3 +38,47 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+/build
+/dist-server
+
+# Testing
+/coverage
+/.nyc_output
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# NestJS specific
+/dist
+/node_modules
+/coverage
+/.env
+/.env.*
+!.env.example
+/nest-cli.json
+/tsconfig.build.tsbuildinfo
+
+# Angular specific
+/.angular
+/coverage
+/lib
+/dist
+/tmp
+/out-tsc
+/bazel-out
